@@ -32,6 +32,7 @@
     right: 0;
     bottom: 0;
     position: fixed;
+    text-align: center;
     background: rgba(0, 0, 0, 0.7);
     opacity: 0;
     transition: opacity 400ms;
@@ -48,7 +49,8 @@
     padding: 30px;
     width: 40%;
     text-align: center;
-    background: #fff;
+    display: inline-block;
+    background:#fff;
     border-radius: 10px;
     position: relative;
     transition: all 500ms ease-in-out;
@@ -99,8 +101,11 @@ footer {
         width: 100%;
     }
 
+    #header {
+        margin-bottom: 500px;
+    }
     .slide {
-        margin-bottom: 1000px;
+        margin-bottom: 600px;
     }
 
     .popup {
